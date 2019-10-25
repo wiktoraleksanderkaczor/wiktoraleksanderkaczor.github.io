@@ -1,6 +1,7 @@
 # Online Resume Website
 It was made using the "Scrolling Nav" bootstrap template;
 https://startbootstrap.com/templates/scrolling-nav/
+https://github.com/BlackrockDigital/startbootstrap-scrolling-nav
 
 All it requires to be hosted is a simple HTTP server if you exclude the single phpMyAdmin page.
 
