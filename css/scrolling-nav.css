@@ -1,0 +1,53 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+*/
+
+.jumbotron {
+  padding: 125px 0 45px;
+  background-color: #69b1cf!important;
+}
+
+section {
+  padding: 35px 0;
+}
+
+h1 {
+ font-family: 'Arvo', Georgia, Times, serif;
+ font-size: 40px;
+ line-height: 35px;
+}
+
+h2,h4 {
+ font-family: 'Arvo', Georgia, Times, serif;
+}
+
+p {
+ font-family: 'Arvo', Georgia, Times, serif;
+ font-size: 59px;
+ line-height: 25px;
+}
+
+p:not([class^="lead"]) {
+ font-family: 'Arvo', Georgia, Times, serif;
+ font-size: 15px;
+ line-height: 16px;
+}
+ 
+ul {
+ font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ line-height: 30px;
+}
+
+.nav-item {
+ font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+ font-size: 17px;
+}
+
+.navbar-brand {
+ font-family: 'Arvo', Georgia, Times, serif;
+ font-size: 25px;
+}
+
