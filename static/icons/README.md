@@ -1,0 +1,1 @@
+Icons were downloaded from https://svgporn.com/ and edited for the purpose of this project.

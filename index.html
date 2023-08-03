@@ -2,236 +2,427 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="This is the online version of my CV with links to my projects, GitHub repositories, certifications and up-to-date contact information.">
-    <meta name="author" content="Wiktor Kaczor">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="Online resume with links to projects, GitHub repositories, certifications and up-to-date contact information" />
+    <meta name="author" content="Wiktor Kaczor" />
 
     <title>Wiktor Kaczor</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/af2ff269ae.js" crossorigin="anonymous"></script>
 
     <!-- Additional Google fonts in use -->
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Wiktor Kaczor</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#work">Work Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#references">References</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll=trigger" href="#download">Download</a>
-                    </li>
-                </ul>
+    <div class="content">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Wiktor Kaczor</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work-experience">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#references">References</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#download">Download</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <div class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
-            <h1>Wiktor Kaczor</h1>
-            <h4>Online CV</h4>
-        </div>
+        <section id="top-info" class="bg-light">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-xl-3 text-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+447936271953">+447936271953</a>
+                        <br />
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:wiktoraleksanderkaczor@gmail.com" >wiktoraleksanderkaczor@gmail.com</a>
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <i class="fa-solid fa-location-dot"></i>&nbsp;
+                        Edinburgh, Scotland, United Kingdom
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/wiktorkaczor">LinkedIn</a>
+                        <br />
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/wiktoraleksanderkaczor">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill-icons">
+            <div class="container ">
+                <div class="row align-items-center">
+                    <div class="col"><img src="static/icons/aws.svg" class="img-fluid" alt="AWS" /></div>
+                    <div class="col"><img src="static/icons/css3.svg" class="img-fluid" alt="CSS" /></div>
+                    <div class="col"><img src="static/icons/docker.svg" class="img-fluid" alt="Docker" /></div>
+                    <div class="col"><img src="static/icons/git.svg" class="img-fluid" alt="Git" /></div>
+                    <div class="col"><img src="static/icons/gitlab.svg" class="img-fluid" alt="GitLab" /></div>
+                    <div class="col"><img src="static/icons/html5.svg" class="img-fluid" alt="HTML" /></div>
+                    <div class="col"><img src="static/icons/javascript.svg" class="img-fluid" alt="JavaScript" /></div>
+                </div>
+                <div class="mt-4 row align-items-center">
+                    <div class="col"><img src="static/icons/jira.svg" class="img-fluid" alt="Jira" /></div>
+                    <div class="col"><img src="static/icons/linux.svg" class="img-fluid" alt="Linux" /></div>
+                    <div class="col"><img src="static/icons/postgresql.svg" class="img-fluid" alt="PostgreSQL" /></div>
+                    <div class="col"><img src="static/icons/python.svg" class="img-fluid" alt="Python" /></div>
+                    <div class="col"><img src="static/icons/splunk.svg" class="img-fluid" alt="Splunk" /></div>
+                    <div class="col"><img src="static/icons/terraform.svg" class="img-fluid" alt="Terraform" /></div>
+                    <div class="col"><img src="static/icons/typescript.svg" class="img-fluid" alt="TypeScript" /></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work-experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Work Experience</h2>
+                        <p class="lead">Software Developer</p>
+                        <ul>
+                            <li>Adarma, United Kingdom</li>
+                            <li>August 2021 to Present</li>
+                        </ul>
+                        <h6>Responsibilites:</h6>
+                        <ul>
+                            <li>
+                                Agile-based meetings discussing and working with
+                                cross-functional teams to implement business requirements
+                            </li>
+                            <li>
+                                Platform serviceability improvements, mainly credential asset
+                                health validation and related automated support issue creation
+                            </li>
+                            <li>
+                                Documenting service up-time conditions and failure scenario
+                                cases for determining service level agreement fulfillment
+                            </li>
+                            <li>
+                                AWS service integration and usage; lambda compute, object
+                                storage, KV-store caching, document and relational databases,
+                                logging and metric monitoring
+                            </li>
+                            <li>
+                                Containerisation (Docker) for Python-based serverless (AWS
+                                Lambda) service deployment and local testing
+                            </li>
+                            <li>
+                                Deployment updates to infrastructure-as-code (Terraform) to
+                                reduce development environment costs
+                            </li>
+                            <li>
+                                In-house testing migration to industry-standard framework
+                                (PyTest) with test profiling and debugging features
+                            </li>
+                            <li>
+                                Troubleshooting and debugging using various monitoring
+                                platforms, mainly log search and tracing based
+                            </li>
+                            <li>
+                                New security enrichment functionality based on historical event
+                                data to reduce duplication of effort
+                            </li>
+                            <li>
+                                Security posture improvements with cross-site script filtering
+                                and user input validation
+                            </li>
+                            <li>CI/CD code quality assurance and schema update pipelines</li>
+                            <li>Minor assorted front-end improvements and fixes</li>
+                        </ul>
+                        <br /><br />
+                        <p class="lead">SOC Analyst</p>
+                        <ul>
+                            <li>Adarma, United Kingdom</li>
+                            <li>August 2021 to May 2022</li>
+                        </ul>
+                        <h6>Responsibilites:</h6>
+                        <ul>
+                            <li>Monitoring clients' IT infrastructures for threats</li>
+                            <li>Triage, investigate and escalate security incidents</li>
+                            <li>
+                                Run scheduled Splunk searches on client (SIEM) infrastructure
+                            </li>
+                            <li>Conducting monitoring for new security rule development</li>
+                            <li>
+                                Hunting for the newest Indicators of Compromise (IoC) within
+                                client estates
+                            </li>
+                            <li>Assisting with response process workbook development</li>
+                            <li>
+                                Verifying security event detection with tools and databases to
+                                confirm reputation
+                            </li>
+                            <li>
+                                Updating thresholds, whitelists and threat lists for new and
+                                existing security rules
+                            </li>
+                        </ul>
+                        <br /><br />
+                        <p class="lead">Student</p>
+                        <ul>
+                            <li>Edinburgh Napier University, United Kingdom</li>
+                            <li>August 2019 to June 2021</li>
+                        </ul>
+                        <h6>Responsibilites:</h6>
+                        <ul>
+                            <li>
+                                Developing a dissertation project using existing photogrammetry
+                                solutions for image tracking purposes
+                            </li>
+                            <li>
+                                Analysing existing source code for vulnerabilities using secure
+                                software development practices
+                            </li>
+                            <li>
+                                Collaborating with a team on web technologies group project for
+                                employee rota management system
+                            </li>
+                            <li>
+                                Python scripting for network packet analysis, filtering and
+                                geographical location lookup
+                            </li>
+                            <li>
+                                Analysing file and operating system artifacts for forensic
+                                evidence
+                            </li>
+                            <li>
+                                Executing and protecting against attacks in an IoT network
+                                simulator
+                            </li>
+                            <li>Basic network server penetration testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Personal Projects</h2>
+                        <p class="lead">
+                            Distributed object storage database and client-server architecture
+                            filesystem (WIP)
+                        </p>
+                        <p>
+                            Abstracted multiple-access storage with various backends,
+                            auto-discovering and bootstrapping hosts forming consensus:
+                        </p>
+                        <ul>
+                            <li>
+                                Ephemeral, master-less and distributed architecture with
+                                consensus conflict resolution
+                            </li>
+                            <li>
+                                Extensible framework for additional storage implementations and
+                                wrappers
+                            </li>
+                            <li>
+                                Multi-paradigm distributed database services and compute
+                                providers
+                            </li>
+                            <li>
+                                File-system in Userspace (FUSE) storage mounting with
+                                cluster-level multiple-access
+                            </li>
+                            <li>
+                                Network auto-discovery service configuration and bootstrapping
+                            </li>
+                            <li>No external service dependencies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Education</h2>
+                        <p class="lead">
+                            Undergraduate Study at Edinburgh Napier University (2019 to 2021):
+                        </p>
+                        <ul>
+                            <li>
+                                BEng (Hons) Cybersecurity and Forensics (3rd Year Entry) with
+                                First Class Honours [2019 to 2021]
+                            </li>
+                        </ul>
+                        <p class="lead">
+                            Higher Education at Edinburgh College (2016 to 2019):
+                        </p>
+                        <ul>
+                            <li>
+                                Higher National Diploma Computing: Networking - Grade A (SQCF
+                                Level 8) [2017 to 2019]
+                            </li>
+                            <li>
+                                National Certificate Computing: Technical Support (SQCF Level 6)
+                                [2016 to 2017]
+                            </li>
+                        </ul>
+                        <p class="lead">Additional Certifications:</p>
+                        <ul>
+                            <li>Splunk Core Certified Power User [Certified 2022]</li>
+                            <a href="https://www.credly.com/badges/9316b645-80f6-4db7-bb0c-4fbf985d1a2d">Verify</a>
+                            <li>Splunk Core Certified User [Certified 2021]</li>
+                            <a href="https://www.credly.com/badges/01d7b394-831b-42cf-8d89-f0c8eaed8abb">Verify</a>
+                            <li>
+                                MTA (Microsoft Technology Associate): Windows Operating System
+                                Fundamentals [Certified 2017]
+                            </li>
+                            <a href="https://www.youracclaim.com/badges/754731c9-fdf1-461a-b0e5-b658b1839778">Verify</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Skills</h2>
+                        <p class="lead">Programming Languages:</p>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                        </ul>
+                        <p class="lead">Tooling:</p>
+                        <ul>
+                            <li>Git</li>
+                            <li>GitLab CI/CD</li>
+                            <li>Linux/Unix</li>
+                            <li>Docker</li>
+                            <li>Terraform</li>
+                            <li>PyTest</li>
+                        </ul>
+                        <!-- 
+                        <p class="lead">Frameworks:</p>
+                        <ul>
+                            <li>TailwindCSS</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                        </ul> 
+                        -->
+                        <p class="lead">Services:</p>
+                        <ul>
+                            <li>AWS</li>
+                            <li>Splunk</li>
+                            <li>PostgreSQL</li>
+                            <li>GitLab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="references">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>References</h2>
+                        <ul>
+                            <li>Adarma Security - PeopleTeam@adarma.com</li>
+                            <li>
+                                Dr Sean McKeown (Edinburgh Napier University) -
+                                S.McKeown@napier.ac.uk
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="bg-light">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Download for later</h2>
+                        <a href="WiktorKaczor.pdf">Click here to download a copy of my CV for later.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">
+                    Copyright &copy; 2023 Wiktor Kaczor. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
     </div>
+    <div class="low-resolution-warning">
+        <h1>Warning!</h1>
+        <p>Your screen resolution is below our minimum requirement. Please increase your screen resolution.</p>
+    </div>
+    <!-- Minimum resolution warning -->
+    <script>
+        var minimumWidth = 320;
+        var minimumHeight = 240;
 
-    <section id="education">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Education</h2>
-                    <p class="lead">Undergraduate Study at Edinburgh Napier University (2019 to 2021):</p>
-                    <ul>
-                        <li>BEng (Hons) Cybersecurity and Forensics (3rd Year Entry) with First Class Honours [2019 to 2021]</li>
-                    </ul>
-                    <p class="lead">Higher Education at Edinburgh College (2016 to 2019):</p>
-                    <ul>
-                        <li>Higher National Diploma Computing: Networking - Grade A (SQCF Level 8) [2017 to 2019]</li>
-                        <li>National Certificate Computing: Technical Support (SQCF Level 6) [2016 to 2017] </li>
-                    </ul>
-                    <p class="lead">Additional Certifications:</p>
-                    <ul>
-                        <li>Splunk Core Certified Power User [Certified 2022]</li>
-                        <a href="https://www.credly.com/badges/9316b645-80f6-4db7-bb0c-4fbf985d1a2d">Verify</a>
-                        <li>Splunk Core Certified User [Certified 2021]</li>
-                        <a href="https://www.credly.com/badges/01d7b394-831b-42cf-8d89-f0c8eaed8abb">Verify</a>
-                        <li>MTA (Microsoft Technology Associate): Windows Operating System Fundamentals [Certified 2017]</li>
-                        <a href="https://www.youracclaim.com/badges/754731c9-fdf1-461a-b0e5-b658b1839778">Verify</a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+        function checkResolution() {
+            if (window.innerWidth >= minimumWidth && window.innerHeight >= minimumHeight) {
+                document.querySelector('.content').style.display = 'block';
+                document.querySelector('.low-resolution-warning').style.display = 'none';
+            } else {
+                document.querySelector('.content').style.display = 'none';
+                document.querySelector('.low-resolution-warning').style.display = 'block';
+            }
+        }
 
-    <section id="work" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Work Experience</h2>
-                    <p class="lead">Software Developer</p>
-                    <ul>
-                        <li>Adarma, United Kingdom</li>
-                        <li>August 2021 to Present</li>
-                    </ul>
-                    <p>My job involves utilizing various AWS-oriented computing, storage, and observability systems with a specialization in server-less lambda and container based architecture. Utilizing infrastructure-as-code and containerization tooling such as Terraform and Docker. PyTest industry-standard testing framework usage plus in-house extensions for interfacing with server-less architecture. Finally, security event investigation enrichment tooling, both vendor provided and written in-house</p>
-                    <h6>Responsibilites:</h6>
-                    <ul>
-                        <li>Agile-based meetings discussing and working with cross-functional teams to implement business requirements</li>
-                        <li>Platform serviceability improvements, mainly credential asset health validation and related automated support issue creation</li>
-                        <li>Documenting service up-time conditions and failure scenario cases for determining service level agreement fulfillment</li>
-                        <li>AWS service integration and usage, particularly lambda compute, object storage, low-latency caching, document and relational databases with inclusions cloud-based logging, and metric monitoring</li>
-                        <li>Utilizing containerization technology for Python-based AWS Lambda services deployment and local testing</li>
-                        <li>In-house testing migration to industry-standard framework with test profiling and debugging features</li>
-                        <li>Troubleshooting and debugging using various monitoring platforms, mainly log search and tracing based</li>
-                        <li>New security enrichment functionality based on historical event data to reduce duplication of effort</li>
-                        <li>Security posture improvements with cross-site script stripping and user input validation</li>
-                        <li>CI/CD code quality assurance and schema update pipelines</li>
-                        <li>Minor assorted front-end improvements and fixes</li>
-                    </ul>
-                    <br><br>
-                    <p class="lead">SOC Analyst</p>
-                    <ul>
-                        <li>Adarma, United Kingdom</li>
-                        <li>August 2021 to May 2022</li>
-                    </ul>
-                    <h6>Responsibilites:</h6>
-                    <ul>
-                        <li>Monitoring clients' IT infrastructures for threats</li>
-                        <li>Triage, investigate and escalate security incidents</li>
-                        <li>Conducting monitoring for new security rule development</li>
-                        <li>Hunting for the newest Indicators of Compromise (IoC) within client estates</li>
-                        <li>Assisting with response process development</li>
-                        <li>Verifying security event detection with tools and databases to confirm reputation</li>
-                        <li>Updating thresholds, whitelists and threat lists for new and existing security rules</li>
-                    </ul>
-                    <br><br>
-                    <p class="lead">Student</p>
-                    <ul>
-                        <li>Edinburgh Napier University, United Kingdom</li>
-                        <li>August 2019 to June 2021</li>
-                    </ul>
-                    <h6>Responsibilites:</h6>
-                    <ul>
-                        <li>Developing a dissertation project using existing photogrammetry solutions for image tracking purposes</li>
-                        <li>Analyzing existing source code for vulnerabilities using secure software development practices</li>
-                        <li>Collaborating with a team on web technologies group project for employee rota management system</li>
-                        <li>Python scripting for network packet analysis, filtering and geographical location lookup</li>
-                        <li>Analyzing file and operating system artifacts for forensic evidence</li>
-                        <li>Executing and protecting against attacks in an IoT network simulator</li>
-                        <li>Basic network server penetration testing</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="references">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>References</h2>
-                    <ul>
-                        <li>Adarma (Cybersecurity) - PeopleTeam@adarma.com</li>
-                        <li>Dr Sean McKeown (Edinburgh Napier University) - S.McKeown@napier.ac.uk</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Personal Projects</h2>
-                    <p class="lead">Distributed object storage database and client-server architecture filesystem (WIP)</p>
-                    <p>Abstracted multiple-access storage with various backends, auto-discovering and bootstrapping hosts forming consensus:</p>
-                    <ul>
-                        <li>Ephemeral, master-less and distributed architecture with consensus conflict resolution</li>
-                        <li>Extensible framework for additional storage implementations and wrappers</li>
-                        <li>Multi-paradigm distributed database services and compute providers</li>
-                        <li>File-system in Userspace (FUSE) storage mounting with cluster-level multiple-access</li>
-                        <li>Network auto-discovery service configuration and bootstrapping</li>
-                        <li>No external service dependencies</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Contact me</h2>
-                    <ul>
-                        <li>Mobile Number: 07936271953</li>
-                        <li>Email: wiktoraleksanderkaczor@gmail.com</li>
-                        <li><a href="https://www.linkedin.com/in/wiktorkaczor">Click here for LinkedIn!</a></li>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="download" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Download for later</h2>
-                    <a href="WiktorKaczor.pdf">Click here to download a copy of my CV for later.</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; 2020 Wiktor Kaczor. All Rights Reserved.</p>
-        </div>
-        <!-- /.container -->
-    </footer>
+        window.onload = checkResolution;
+        window.onresize = checkResolution;
+    </script>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Update bootstrap to latest version -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
 </body>
+
 
 </html>
