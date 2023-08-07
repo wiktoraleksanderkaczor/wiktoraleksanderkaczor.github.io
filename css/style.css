@@ -4,18 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
 */
 
-@media print {
-  .no-print {
-    display: none;
-  }
-}
-
 section {
   padding: 35px 0;
-}
-
-#skill-icons img {
-  max-height: 50px;
 }
 
 h1 {
@@ -56,3 +46,13 @@ ul {
  font-size: 25px;
 }
 
+.skill-item {
+  margin-bottom: 10px;
+  width: 175px;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
