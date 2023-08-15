@@ -46,7 +46,7 @@ jobs:
           make clean
           make publish
       - name: Upload artifact
-        uses: actions/actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v2
         with:
           # Upload filtered repository
           path: |
