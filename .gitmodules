@@ -1,4 +1,4 @@
-[submodule "_articles/theme"]
-	path = _articles/theme
+[submodule "articles/theme"]
+	path = articles/theme
 	url = https://github.com/alexandrevicenzi/Flex
 	branch = master
