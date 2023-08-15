@@ -38,7 +38,7 @@ jobs:
       - name: Build with Pelican
         run: |
           # Go to blog source directory
-          cd _articles
+          cd articles
           # Clean and publish blog
           make clean
           make publish
