@@ -48,16 +48,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload filtered repository
-          path: |
-            .
-            !./.git
-            !./.github
-            !./.gitignore
-            !./.gitmodules
-            !./requirements.txt
-            !./articles
-  
+          # Upload repository
+          path: .
   # Deployment to GitHub Pages
   deploy:
     needs: build
