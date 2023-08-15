@@ -65,6 +65,11 @@ jobs:
           # Upload entire repository
           path: |
             .
+            !./.git
+            !./.github
+            !./.gitignore
+            !./.gitmodules
+            !./requirements.txt
             !./articles
       - name: Deploy to GitHub Pages
         id: deployment
