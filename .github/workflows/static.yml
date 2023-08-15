@@ -45,6 +45,8 @@ jobs:
           # Clean and publish blog
           make clean
           make publish
+      - name: Remove source files
+        run: rm -rf articles .github .gitignore .gitmodules requirements.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
