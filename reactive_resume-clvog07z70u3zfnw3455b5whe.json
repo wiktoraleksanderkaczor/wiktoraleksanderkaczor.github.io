@@ -1,0 +1,490 @@
+{
+  "basics": {
+    "url": {
+      "href": "https://wiktorkaczor.com",
+      "label": ""
+    },
+    "name": "Wiktor Kaczor",
+    "email": "wiktoraleksanderkaczor@gmail.com",
+    "phone": "+447936271953",
+    "picture": {
+      "url": "https://storage.rxresu.me/clp9g11greckq9hunba7bl10e/pictures/clp9g11greckq9hunba7bl10e.jpg",
+      "size": 192,
+      "effects": {
+        "border": false,
+        "hidden": false,
+        "grayscale": false
+      },
+      "aspectRatio": 1,
+      "borderRadius": 30
+    },
+    "headline": "",
+    "location": "",
+    "customFields": []
+  },
+  "metadata": {
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "format": "a4",
+      "margin": 18,
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "text": "#000000",
+      "primary": "#dc2626",
+      "background": "#ffffff"
+    },
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "template": "bronzor",
+    "typography": {
+      "font": {
+        "size": 13.5,
+        "family": "Roboto Condensed",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ]
+      },
+      "hideIcons": false,
+      "lineHeight": 1.25,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "awards": {
+      "id": "awards",
+      "name": "Awards",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "custom": {},
+    "skills": {
+      "id": "skills",
+      "name": "Skills",
+      "items": [
+        {
+          "id": "wun0btdet37hzz4f7v43xcwf",
+          "name": "Python",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "tf961dhxmq3k5r8ll37uouk4",
+          "name": "AWS",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "olj1zdso24786xw9s39ugxiq",
+          "name": "PyTest",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "g9789ueeft0qwu6m2ekseg9y",
+          "name": "Git + GitLab",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "cpu0qlcbhzq2t56q9m7nwgy8",
+          "name": "Terraform",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "fcn7g50559zn3x3y8h04cbfo",
+          "name": "Docker",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "edlibmdox8phmvw9akmysse5",
+          "name": "GitLab CI/CD",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "bbmfjgk0466nk156kt99y5zs",
+          "name": "Linux/Unix",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "xtlk7tso2qtcu1bi59j60o4f",
+          "visible": true,
+          "name": "C# ASP.NET",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "dynuvh0mjg864ma6f7daxqlw",
+          "visible": true,
+          "name": "HTML/CSS/JS",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "a8pe3ftl8gk90fl5eo2v947e",
+          "visible": true,
+          "name": "Azure DevOps",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "i6uufed13yd7ki1pvhg7cl1o",
+          "visible": true,
+          "name": "Agile",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        }
+      ],
+      "columns": 4,
+      "visible": true
+    },
+    "summary": {
+      "id": "summary",
+      "name": "Summary",
+      "columns": 1,
+      "content": "",
+      "visible": true
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "Profiles",
+      "items": [
+        {
+          "id": "lo0up0b0ynr2jax7lj6n6apc",
+          "url": {
+            "href": "https://www.linkedin.com/in/wiktorkaczor/",
+            "label": ""
+          },
+          "icon": "linkedin",
+          "network": "LinkedIn",
+          "visible": true,
+          "username": "wiktorkaczor"
+        },
+        {
+          "id": "j77gv40wd7ap22skjofjc1uk",
+          "url": {
+            "href": "https://github.com/wiktoraleksanderkaczor",
+            "label": ""
+          },
+          "icon": "github",
+          "network": "GitHub",
+          "visible": true,
+          "username": "wiktoraleksanderkaczor"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "projects": {
+      "id": "projects",
+      "name": "Projects",
+      "items": [
+        {
+          "id": "q0qysz630lhrwj2n7w61c1o2",
+          "visible": true,
+          "name": "Personal Website",
+          "description": "Online resume with links to projects, GitHub repositories, certifications and up-to-date contact information",
+          "date": " - ",
+          "summary": "<p></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://wiktorkaczor.com/"
+          }
+        },
+        {
+          "id": "qqm08i4a9e490l83zdljvu7f",
+          "visible": true,
+          "name": "Dissertation",
+          "description": "Internet-based crowdsourced image 3D model reconstruction, geo-registration and novel image localisation",
+          "date": " - ",
+          "summary": "<p></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://wiktorkaczor.com/Dissertation.pdf"
+          }
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "education": {
+      "id": "education",
+      "name": "Education",
+      "items": [
+        {
+          "id": "jp4cwkes227tda89f325oko8",
+          "url": {
+            "href": "https://www.napier.ac.uk/",
+            "label": ""
+          },
+          "area": "",
+          "date": " - ",
+          "score": "First Class",
+          "summary": "",
+          "visible": true,
+          "studyType": "BEng (Hons) Cybersecurity and Forensics",
+          "institution": "Edinburgh Napier University"
+        },
+        {
+          "id": "jqaytkvdcuuguipdp9inc1ir",
+          "url": {
+            "href": "https://www.edinburghcollege.ac.uk/",
+            "label": ""
+          },
+          "area": "",
+          "date": " - ",
+          "score": "Grade A",
+          "summary": "",
+          "visible": true,
+          "studyType": "Higher National Diploma Computing: Networking",
+          "institution": "Edinburgh College"
+        },
+        {
+          "id": "pjnepx55h4z5io9zgs2u63ff",
+          "url": {
+            "href": "https://www.edinburghcollege.ac.uk/",
+            "label": ""
+          },
+          "area": "",
+          "date": " - ",
+          "score": "Pass",
+          "summary": "",
+          "visible": true,
+          "studyType": "National Certificate Computing: Technical Support",
+          "institution": "Edinburgh College"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "interests": {
+      "id": "interests",
+      "name": "Interests",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "languages": {
+      "id": "languages",
+      "name": "Languages",
+      "items": [
+        {
+          "id": "be6mp6yh12mf6rzjyifh6a6a",
+          "name": "English",
+          "level": 0,
+          "visible": true,
+          "description": "Native"
+        },
+        {
+          "id": "qykmdr6plfj1xl1qffm8vw45",
+          "name": "Polish",
+          "level": 0,
+          "visible": true,
+          "description": "Intermediate"
+        }
+      ],
+      "columns": 2,
+      "visible": true
+    },
+    "volunteer": {
+      "id": "volunteer",
+      "name": "Volunteering",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "experience": {
+      "id": "experience",
+      "name": "Experience",
+      "items": [
+        {
+          "id": "vpnqatxr20pt7kg8auyuer82",
+          "visible": true,
+          "company": "ClearSky Logic",
+          "position": "Software Developer",
+          "location": "Edinburgh/Glasgow",
+          "date": "September 2023 - Present",
+          "summary": "<p>Develop ASP.NET Core MVC applications, engage in Agile scrums, utilize Azure services, optimize Entity Framework performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis and decisioning.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.clearskylogic.com/"
+          }
+        },
+        {
+          "id": "rulyvc35ghbmi85qhs9m52na",
+          "visible": true,
+          "company": "Adarma Security",
+          "position": "Software Engineer",
+          "location": "Edinburgh",
+          "date": "May 2022 - May 2023",
+          "summary": "<p>Develop serverless Python functions for cybersecurity automation, collaborate in Agile meetings, improve platform serviceability, document failure scenarios, utilize AWS services, containerize deployments, optimize Terraform setups, migrate tests to PyTest, troubleshoot with log-based monitoring, enhance security using historical data, and manage CI/CD pipelines.</p>",
+          "url": {
+            "label": "",
+            "href": "https://adarma.com/"
+          }
+        },
+        {
+          "id": "nof6e3fci84lqhrlhxg7ivyd",
+          "visible": true,
+          "company": "Adarma Security",
+          "position": "SOC Analyst",
+          "location": "Edinburgh",
+          "date": "August 2021 - May 2022",
+          "summary": "<p>Monitor, investigate, and respond to security incidents, perform scheduled SIEM searches, develop security rules, hunt for IoCs, aid in response workbook development, and maintain security lists and thresholds.</p>",
+          "url": {
+            "label": "",
+            "href": "https://adarma.com/"
+          }
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "references": {
+      "id": "references",
+      "name": "References",
+      "items": [
+        {
+          "id": "krbx79qhk0msi7wftyrlqc4t",
+          "visible": true,
+          "name": "ClearSky Logic",
+          "description": "Employer",
+          "summary": "<p>Available on request.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "vlftt106t5iidb5glumindj9",
+          "visible": true,
+          "name": "Adarma Security",
+          "description": "Employer",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:PeopleTeam@adarma.com\">PeopleTeam@adarma.com</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "g3yod0e697ws25egzy7s01pt",
+          "visible": true,
+          "name": "Dr Sean McKeown",
+          "description": "Dissertation Supervisor",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:S.McKeown@napier.ac.uk\">S.McKeown@napier.ac.uk</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ],
+      "columns": 3,
+      "visible": true
+    },
+    "publications": {
+      "id": "publications",
+      "name": "Publications",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "certifications": {
+      "id": "certifications",
+      "name": "Certifications",
+      "items": [
+        {
+          "id": "tbh948afib6wzum1kffpy5ud",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "",
+          "name": "Splunk Core Certified Power User",
+          "issuer": "Splunk",
+          "summary": "",
+          "visible": true
+        },
+        {
+          "id": "rvrn3kfpxpxgw5hgol979qt3",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "",
+          "name": "Splunk Core Certified User",
+          "issuer": "Splunk",
+          "summary": "",
+          "visible": true
+        },
+        {
+          "id": "un1kjhx7dxd8q6bv0uoc4aie",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "",
+          "name": "MTA: Windows Operating System Fundamentals",
+          "issuer": "Microsoft",
+          "summary": "",
+          "visible": true
+        }
+      ],
+      "columns": 3,
+      "visible": true
+    }
+  }
+}
