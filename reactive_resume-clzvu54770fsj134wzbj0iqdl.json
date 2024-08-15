@@ -19,7 +19,7 @@
       "borderRadius": 30
     },
     "headline": "",
-    "location": "",
+    "location": "Glasgow, Scotland",
     "customFields": []
   },
   "metadata": {
@@ -83,7 +83,8 @@
       "name": "Awards",
       "items": [],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "custom": {},
     "skills": {
@@ -91,12 +92,36 @@
       "name": "Skills",
       "items": [
         {
+          "id": "b50x5n9ale2k40h3ixvrrp3d",
+          "visible": true,
+          "name": "C#",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "gqabcoewot8q4xc6y3bainsb",
+          "visible": true,
+          "name": "ASP.NET",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
           "id": "wun0btdet37hzz4f7v43xcwf",
           "name": "Python",
           "level": 0,
           "visible": true,
           "keywords": [],
           "description": ""
+        },
+        {
+          "id": "axi72u0ylt6nvg1jqhs911zf",
+          "visible": true,
+          "name": "Azure",
+          "description": "",
+          "level": 0,
+          "keywords": []
         },
         {
           "id": "tf961dhxmq3k5r8ll37uouk4",
@@ -107,8 +132,8 @@
           "description": ""
         },
         {
-          "id": "olj1zdso24786xw9s39ugxiq",
-          "name": "PyTest",
+          "id": "a8pe3ftl8gk90fl5eo2v947e",
+          "name": "Azure DevOps",
           "level": 0,
           "visible": true,
           "keywords": [],
@@ -123,8 +148,16 @@
           "description": ""
         },
         {
-          "id": "cpu0qlcbhzq2t56q9m7nwgy8",
-          "name": "Terraform",
+          "id": "rzm68bkybq7wuz1hq3msjg60",
+          "visible": true,
+          "name": "xUnit",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "olj1zdso24786xw9s39ugxiq",
+          "name": "PyTest",
           "level": 0,
           "visible": true,
           "keywords": [],
@@ -139,14 +172,6 @@
           "description": ""
         },
         {
-          "id": "edlibmdox8phmvw9akmysse5",
-          "name": "GitLab CI/CD",
-          "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
           "id": "bbmfjgk0466nk156kt99y5zs",
           "name": "Linux/Unix",
           "level": 0,
@@ -155,47 +180,49 @@
           "description": ""
         },
         {
-          "id": "xtlk7tso2qtcu1bi59j60o4f",
-          "visible": true,
-          "name": "C# ASP.NET",
-          "description": "",
+          "id": "cpu0qlcbhzq2t56q9m7nwgy8",
+          "name": "Terraform",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         },
         {
-          "id": "dynuvh0mjg864ma6f7daxqlw",
-          "visible": true,
-          "name": "HTML/CSS/JS",
-          "description": "",
+          "id": "edlibmdox8phmvw9akmysse5",
+          "name": "GitLab CI/CD",
           "level": 0,
-          "keywords": []
-        },
-        {
-          "id": "a8pe3ftl8gk90fl5eo2v947e",
           "visible": true,
-          "name": "Azure DevOps",
-          "description": "",
-          "level": 0,
-          "keywords": []
+          "keywords": [],
+          "description": ""
         },
         {
           "id": "i6uufed13yd7ki1pvhg7cl1o",
-          "visible": true,
           "name": "Agile",
-          "description": "",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "dynuvh0mjg864ma6f7daxqlw",
+          "name": "HTML/CSS/JS",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
         }
       ],
       "columns": 4,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "summary": {
       "id": "summary",
       "name": "Summary",
       "columns": 1,
-      "content": "",
-      "visible": true
+      "content": "<p></p>",
+      "visible": true,
+      "separateLinks": true
     },
     "profiles": {
       "id": "profiles",
@@ -225,7 +252,8 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "projects": {
       "id": "projects",
@@ -233,33 +261,34 @@
       "items": [
         {
           "id": "q0qysz630lhrwj2n7w61c1o2",
-          "visible": true,
-          "name": "Personal Website",
-          "description": "Online resume with links to projects, GitHub repositories, certifications and up-to-date contact information",
-          "date": " - ",
-          "summary": "<p></p>",
-          "keywords": [],
           "url": {
-            "label": "",
-            "href": "https://wiktorkaczor.com/"
-          }
+            "href": "https://wiktorkaczor.com/",
+            "label": ""
+          },
+          "date": " - ",
+          "name": "Personal Website",
+          "summary": "<p></p>",
+          "visible": true,
+          "keywords": [],
+          "description": "Online resume with links to projects, GitHub repositories, certifications and up-to-date contact information"
         },
         {
           "id": "qqm08i4a9e490l83zdljvu7f",
-          "visible": true,
-          "name": "Dissertation",
-          "description": "Internet-based crowdsourced image 3D model reconstruction, geo-registration and novel image localisation",
-          "date": " - ",
-          "summary": "<p></p>",
-          "keywords": [],
           "url": {
-            "label": "",
-            "href": "https://wiktorkaczor.com/Dissertation.pdf"
-          }
+            "href": "https://wiktorkaczor.com/Dissertation.pdf",
+            "label": ""
+          },
+          "date": " - ",
+          "name": "Dissertation",
+          "summary": "<p></p>",
+          "visible": true,
+          "keywords": [],
+          "description": "Internet-based crowdsourced image 3D model reconstruction, geo-registration and novel image localisation"
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "education": {
       "id": "education",
@@ -309,14 +338,16 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "interests": {
       "id": "interests",
       "name": "Interests",
       "items": [],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "languages": {
       "id": "languages",
@@ -338,14 +369,16 @@
         }
       ],
       "columns": 2,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "volunteer": {
       "id": "volunteer",
       "name": "Volunteering",
       "items": [],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "experience": {
       "id": "experience",
@@ -358,7 +391,7 @@
           "position": "Software Developer",
           "location": "Edinburgh/Glasgow",
           "date": "September 2023 - Present",
-          "summary": "<p>Develop ASP.NET Core MVC applications, engage in Agile scrums, utilize Azure services, optimize Entity Framework performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis and decisioning.</p>",
+          "summary": "<p>Develop C# ASP.NET Core MVC applications, engage in Agile scrums, utilize Azure services, optimize database performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis, financial decisioning and metric report generation.</p>",
           "url": {
             "label": "",
             "href": "https://www.clearskylogic.com/"
@@ -366,33 +399,34 @@
         },
         {
           "id": "rulyvc35ghbmi85qhs9m52na",
-          "visible": true,
-          "company": "Adarma Security",
-          "position": "Software Engineer",
-          "location": "Edinburgh",
-          "date": "May 2022 - May 2023",
-          "summary": "<p>Develop serverless Python functions for cybersecurity automation, collaborate in Agile meetings, improve platform serviceability, document failure scenarios, utilize AWS services, containerize deployments, optimize Terraform setups, migrate tests to PyTest, troubleshoot with log-based monitoring, enhance security using historical data, and manage CI/CD pipelines.</p>",
           "url": {
-            "label": "",
-            "href": "https://adarma.com/"
-          }
+            "href": "https://adarma.com/",
+            "label": ""
+          },
+          "date": "May 2022 - May 2023",
+          "company": "Adarma Security",
+          "summary": "<p>Develop serverless Python functions for cybersecurity automation, collaborate in Agile meetings, improve platform serviceability, document failure scenarios, utilize AWS services, containerize deployments, optimize Terraform setups, migrate tests to PyTest, troubleshoot with log-based monitoring, enhance security using historical data, and manage CI/CD pipelines.</p>",
+          "visible": true,
+          "location": "Edinburgh",
+          "position": "Software Engineer"
         },
         {
           "id": "nof6e3fci84lqhrlhxg7ivyd",
-          "visible": true,
-          "company": "Adarma Security",
-          "position": "SOC Analyst",
-          "location": "Edinburgh",
-          "date": "August 2021 - May 2022",
-          "summary": "<p>Monitor, investigate, and respond to security incidents, perform scheduled SIEM searches, develop security rules, hunt for IoCs, aid in response workbook development, and maintain security lists and thresholds.</p>",
           "url": {
-            "label": "",
-            "href": "https://adarma.com/"
-          }
+            "href": "https://adarma.com/",
+            "label": ""
+          },
+          "date": "August 2021 - May 2022",
+          "company": "Adarma Security",
+          "summary": "<p>Monitor, investigate, and respond to security incidents, perform scheduled SIEM searches, develop security rules, hunt for IoCs, aid in response workbook development, and maintain security lists and thresholds.</p>",
+          "visible": true,
+          "location": "Edinburgh",
+          "position": "SOC Analyst"
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "references": {
       "id": "references",
@@ -400,47 +434,49 @@
       "items": [
         {
           "id": "krbx79qhk0msi7wftyrlqc4t",
-          "visible": true,
-          "name": "ClearSky Logic",
-          "description": "Employer",
-          "summary": "<p>Available on request.</p>",
           "url": {
-            "label": "",
-            "href": ""
-          }
+            "href": "",
+            "label": ""
+          },
+          "name": "ClearSky Logic",
+          "summary": "<p>Available on request.</p>",
+          "visible": true,
+          "description": "Employer"
         },
         {
           "id": "vlftt106t5iidb5glumindj9",
-          "visible": true,
-          "name": "Adarma Security",
-          "description": "Employer",
-          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:PeopleTeam@adarma.com\">PeopleTeam@adarma.com</a></p>",
           "url": {
-            "label": "",
-            "href": ""
-          }
+            "href": "",
+            "label": ""
+          },
+          "name": "Adarma Security",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:PeopleTeam@adarma.com\">PeopleTeam@adarma.com</a></p>",
+          "visible": true,
+          "description": "Employer"
         },
         {
           "id": "g3yod0e697ws25egzy7s01pt",
-          "visible": true,
-          "name": "Dr Sean McKeown",
-          "description": "Dissertation Supervisor",
-          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:S.McKeown@napier.ac.uk\">S.McKeown@napier.ac.uk</a></p>",
           "url": {
-            "label": "",
-            "href": ""
-          }
+            "href": "",
+            "label": ""
+          },
+          "name": "Dr Sean McKeown",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:S.McKeown@napier.ac.uk\">S.McKeown@napier.ac.uk</a></p>",
+          "visible": true,
+          "description": "Dissertation Supervisor"
         }
       ],
       "columns": 3,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "publications": {
       "id": "publications",
       "name": "Publications",
       "items": [],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "certifications": {
       "id": "certifications",
@@ -484,7 +520,8 @@
         }
       ],
       "columns": 3,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     }
   }
 }
