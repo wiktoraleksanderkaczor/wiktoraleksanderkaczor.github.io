@@ -1,16 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description"
-        content="Online résumé with links to projects, GitHub repositories, certifications and up-to-date contact information" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Online résumé with links to projects, GitHub repositories, certifications and up-to-date contact information"
+    />
     <meta name="author" content="Wiktor Kaczor" />
+
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="Wiktor Kaczor - Software Developer" />
+    <meta
+      property="og:description"
+      content="Software Developer specializing in C#, Python, and cloud technologies"
+    />
+    <meta property="og:image" content="/articles/content/images/profile.jpg" />
+    <meta
+      property="og:url"
+      content="https://wiktoraleksanderkaczor.github.io"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Wiktor Kaczor",
+        "givenName": "Wiktor",
+        "familyName": "Kaczor",
+        "jobTitle": "Software Developer",
+        "url": "https://wiktoraleksanderkaczor.github.io",
+        "image": "/articles/content/images/profile.jpg",
+        "email": "wiktoraleksanderkaczor@gmail.com",
+        "telephone": "+447936271953",
+        "sameAs": [
+          "https://www.linkedin.com/in/wiktorkaczor",
+          "https://github.com/wiktoraleksanderkaczor"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "ClearSky Logic",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Glasgow",
+              "addressRegion": "Scotland",
+              "addressCountry": "United Kingdom"
+            }
+          }
+        },
+        "workLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Glasgow",
+            "addressRegion": "Scotland",
+            "addressCountry": "United Kingdom"
+          }
+        },
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Edinburgh Napier University",
+            "award": "BEng (Hons) Cybersecurity and Forensics"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Edinburgh College",
+            "award": "Higher National Diploma Computing: Networking"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Splunk Core Certified Power User",
+            "dateCreated": "2022"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Splunk Core Certified User",
+            "dateCreated": "2021"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "MTA: Windows Operating System Fundamentals",
+            "dateCreated": "2017"
+          }
+        ],
+        "hasOccupation": [
+          {
+            "@type": "Occupation",
+            "name": "Software Developer",
+            "occupationLocation": {
+              "@type": "AdministrativeArea",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Glasgow",
+                "addressRegion": "Scotland",
+                "addressCountry": "United Kingdom"
+              }
+            },
+            "skills": [
+              "C#",
+              "ASP.NET Core Web API",
+              "Python",
+              "Docker",
+              "Entity Framework Core",
+              "gRPC",
+              "GitLab CI/CD",
+              "Terraform",
+              "AWS",
+              "Azure DevOps",
+              "Secure Programming",
+              "Cybersecurity"
+            ]
+          }
+        ],
+        "knowsAbout": [
+          "Software Development",
+          "Web APIs",
+          "Cloud Computing",
+          "Cybersecurity",
+          "Database Design",
+          "DevOps",
+          "Agile Methodologies"
+        ]
+      }
+    </script>
 
     <title>Wiktor Kaczor</title>
 
-    <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -19,642 +145,886 @@
     <link href="css/style.css" rel="stylesheet" />
 
     <!-- Font Awesome icons -->
-    <script src="https://kit.fontawesome.com/af2ff269ae.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/af2ff269ae.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Additional Google fonts in use -->
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+    />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4JGBBCE6G"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V4JGBBCE6G"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-V4JGBBCE6G');
+      gtag("config", "G-V4JGBBCE6G");
     </script>
-</head>
+  </head>
 
-<body id="page-top">
+  <body id="page-top">
     <div class="content">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top no-print" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Wiktor Kaczor</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#references">References</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#download">Download</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <!-- Navigation -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top no-print"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#page-top">Wiktor Kaczor</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#references">References</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#download">Download</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <section id="top-info" class="bg-light">
-            <div class="container-fluid">
-                <div class="row align-items-center justify-content-around">
-                    <div class="col-xl-3 text-center">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+447936271953">+447936271953</a>
-                        <br />
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:wiktoraleksanderkaczor@gmail.com">wiktoraleksanderkaczor@gmail.com</a>
-                    </div>
-                    <div class="col-xl-3 text-center">
-                        <i class="fa-solid fa-location-dot"></i>
-                        Glasgow, Scotland, United Kingdom
-                        <br>
-                        <i class="fa-solid fa-blog"></i>
-                        <a href="/blog">Follow my blog here!</a>
-                    </div>
-                    <div class="col-xl-3 text-center">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/wiktorkaczor">LinkedIn</a>
-                        <br />
-                        <i class="fa-brands fa-github"></i>
-                        <a href="https://github.com/wiktoraleksanderkaczor">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="experience">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2>Experience</h2>
-                        <p class="lead">Software Developer</p>
-                        <ul>
-                            <li>ClearSky Logic, United Kingdom</li>
-                            <li>September 2023 to Present</li>
-                        </ul>
-                        <h6>Responsibilities:</h6>
-                        <ul>
-                            <li>
-                                ASP.NET Core Web API application development for automated background checking, risk analysis and financial decisioning platforms
-                            </li>
-                            <li>
-                                Design and implement secure APIs for integration with external services
-                            </li>
-                            <li>
-                                Participate in Agile scrum meetings to refine project requirements and workflows
-                            </li>
-                            <li>
-                                Utilize Azure services including Azure Functions, Azure SQL Database, and Azure Blob Storage
-                            </li>
-                            <li>
-                                Optimize Entity Framework performance for database operations and data retrieval
-                            </li>
-                            <li>
-                                Debug and troubleshoot application issues across development environments
-                            </li>
-                            <li>
-                                Conduct code reviews to ensure coding standards and integrate feedback for improvement
-                            </li>
-                            <li>
-                                Enhance application performance through parallel processing techniques
-                            </li>
-                            <li>
-                                Overhaul existing data models and migrate to optimized structures
-                            </li>
-                            <li>
-                                Write unit and integration tests to validate code across updates
-                            </li>
-                            <li>
-                                Improve developer workflow with the implementation of efficient tools and processes
-                            </li>
-                            <li>
-                                Address front-end issues and user interface bugs as required
-                            </li>
-                            <li>
-                                Continuously integrate and deploy updates via CI/CD pipelines
-                            </li>
-                        </ul>
-                        <br /><br />
-                        <p class="lead">Software Developer</p>
-                        <ul>
-                            <li>Adarma, United Kingdom</li>
-                            <li>May 2022 to May 2023</li>
-                        </ul>
-                        <h6>Responsibilites:</h6>
-                        <ul>
-                            <li>
-                                Serverless Python-based function development for cybersecurity automation platform
-                            </li>
-                            <li>
-                                Agile meetings for business requirements with cross-functional teams
-                            </li>
-                            <li>
-                                Enhance platform serviceability, mainly credential health validation and automated
-                                support
-                            </li>
-                            <li>
-                                Document service failure scenarios for SLA assessment
-                            </li>
-                            <li>
-                                AWS service usage; lambda compute, storage, caching, databases, and monitoring
-                            </li>
-                            <li>
-                                Docker containerization for serverless service deployment and testing
-                            </li>
-                            <li>
-                                Update Terraform deployments to reduce development environment costs
-                            </li>
-                            <li>
-                                Migrate in-house tests to PyTest with profiling and debugging
-                            </li>
-                            <li>
-                                Troubleshoot and debug using log-based monitoring platforms
-                            </li>
-                            <li>
-                                Implement security enhancements using historical event data to minimize redundancy
-                            </li>
-                            <li>
-                                Boost security with cross-site script filtering and user input validation
-                            </li>
-                            <li>CI/CD code quality assurance and schema update pipelines</li>
-                            <li>Handle minor front-end enhancements and bug fixes</li>
-                        </ul>
-                        <br /><br />
-                        <p class="lead">SOC Analyst</p>
-                        <ul>
-                            <li>Adarma, United Kingdom</li>
-                            <li>August 2021 to May 2022</li>
-                        </ul>
-                        <h6>Responsibilites:</h6>
-                        <ul>
-                            <li>Monitoring clients' IT infrastructures for threats</li>
-                            <li>Triage, investigate and escalate security incidents</li>
-                            <li>Tracking ticket investigation progress in ticket (JIRA)</li>
-                            <li>
-                                Run scheduled Splunk searches on client (SIEM) infrastructure
-                            </li>
-                            <li>Conducting monitoring for new security rule development</li>
-                            <li>
-                                Hunting for the newest Indicators of Compromise (IoC) within
-                                client estates
-                            </li>
-                            <li>Assisting with response process workbook development</li>
-                            <li>
-                                Verifying security event detection with tools and databases to
-                                confirm reputation
-                            </li>
-                            <li>
-                                Updating thresholds, whitelists and threat lists for new and
-                                existing security rules
-                            </li>
-                        </ul>
-                        <br /><br />
-                        <p class="lead">Student</p>
-                        <ul>
-                            <li>Edinburgh Napier University, United Kingdom</li>
-                            <li>August 2019 to June 2021</li>
-                        </ul>
-                        <h6>Responsibilites:</h6>
-                        <ul>
-                            <li>
-                                Developing a dissertation project using existing photogrammetry
-                                solutions for image tracking purposes
-                            </li>
-                            <li>
-                                Analysing existing source code for vulnerabilities using secure
-                                software development practices
-                            </li>
-                            <li>
-                                Collaborating with a team on web technologies group project for
-                                employee rota management system
-                            </li>
-                            <li>
-                                Python scripting for network packet analysis, filtering and
-                                geographical location lookup
-                            </li>
-                            <li>
-                                Analysing file and operating system artifacts for forensic
-                                evidence
-                            </li>
-                            <li>
-                                Executing and protecting against attacks in an IoT network
-                                simulator
-                            </li>
-                            <li>Basic network server penetration testing</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2>Personal Projects</h2>
-                        <p class="lead">
-                            Personal website
-                        </p>
-                        <p>
-                            Highly responsive, completely static and concise website listing my skills, experience and
-                            projects:
-                        </p>
-                        <ul>
-                            <li>
-                                Written in Bootstrap 5, HTML5, CSS3 and minor JavaScript
-                            </li>
-                            <li>
-                                Responsive down to 320px width with mobile-first design
-                            </li>
-                            <li>
-                                Easy-to-find find and use contact information; an email
-                                address, code repository and social media profiles
-                            </li>
-                            <li>
-                                Search engine optimization (SEO) with meta tags
-                            </li>
-                            <li>
-                                Webpage and visitor tracking with Google Analytics
-                            </li>
-                        </ul>
-                        <br /><br />
-                        <p class="lead">
-                            Distributed object storage database and client-server architecture
-                            filesystem (WIP)
-                        </p>
-                        <p>
-                            Abstracted multiple-access storage with various backends,
-                            auto-discovering and bootstrapping hosts forming consensus:
-                        </p>
-                        <ul>
-                            <li>
-                                Ephemeral, master-less and distributed architecture with
-                                consensus conflict resolution
-                            </li>
-                            <li>
-                                Extensible framework for additional storage implementations and
-                                wrappers
-                            </li>
-                            <li>
-                                Multi-paradigm distributed database services and compute
-                                providers
-                            </li>
-                            <li>
-                                File-system in Userspace (FUSE) storage mounting with
-                                cluster-level multiple-access
-                            </li>
-                            <li>
-                                Network auto-discovery service configuration and bootstrapping
-                            </li>
-                            <li>No external service dependencies</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="education">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2>Education</h2>
-                        <p class="lead">
-                            Undergraduate Study at Edinburgh Napier University (2019 to 2021):
-                        </p>
-                        <ul>
-                            <li>
-                                BEng (Hons) Cybersecurity and Forensics (3rd Year Entry) with
-                                First Class Honours [2019 to 2021]
-                            </li>
-                        </ul>
-                        <p class="lead">
-                            Higher Education at Edinburgh College (2016 to 2019):
-                        </p>
-                        <ul>
-                            <li>
-                                Higher National Diploma Computing: Networking - Grade A (SQCF
-                                Level 8) [2017 to 2019]
-                            </li>
-                            <li>
-                                National Certificate Computing: Technical Support (SQCF Level 6)
-                                [2016 to 2017]
-                            </li>
-                        </ul>
-                        <p class="lead">Additional Certifications:</p>
-                        <ul>
-                            <li>Splunk Core Certified Power User [Certified 2022]</li>
-                            <a href="https://www.credly.com/badges/9316b645-80f6-4db7-bb0c-4fbf985d1a2d">Verify</a>
-                            <li>Splunk Core Certified User [Certified 2021]</li>
-                            <a href="https://www.credly.com/badges/01d7b394-831b-42cf-8d89-f0c8eaed8abb">Verify</a>
-                            <li>
-                                MTA (Microsoft Technology Associate): Windows Operating System
-                                Fundamentals [Certified 2017]
-                            </li>
-                            <a href="https://www.youracclaim.com/badges/754731c9-fdf1-461a-b0e5-b658b1839778">Verify</a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2>Skills</h2>
-                        <!-- <p class="lead">Rated in terms of confidence at being able to do what is needed</p> -->
-                        <h5>Languages:</h5>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">C#</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">ASP.NET Core Web API</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Python</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">HTML/CSS/JS</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 30%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">SQL</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <h5>Tooling:</h5>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Docker</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Entity Framework Core</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">gRPC</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">GitLab CI/CD</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Terraform</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Git</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Linux/Unix</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <h5>Services:</h5>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">AWS</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 55%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">JIRA</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Azure DevOps</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Splunk</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">GitLab</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">CrowdStrike</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <h5>Other:</h5>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">ASP.NET Core Web API</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 70%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">xUnit</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Clean Architecture</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">PyTest</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 40%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <h5>General:</h5>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Secure Programming</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Cybersecurity</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Agile</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 70%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Scripting</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Computer Networking</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">System Design</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h6 class="text-center mb-2">Databases</h6>
-                                    <div class="progress" >
-                                        <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="references">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2>References</h2>
-                        <ul>
-                            <li>Current employer available upon request</li>
-                            <li>Adarma Security - PeopleTeam@adarma.com</li>
-                            <li>
-                                Dr Sean McKeown (Edinburgh Napier University) -
-                                S.McKeown@napier.ac.uk
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="download" class="bg-light no-print">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-8 mx-auto">
-                        <h2>Download for later</h2>
-                        <a href="WiktorKaczor.pdf">Click here to download a copy of my CV for later.</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="py-5 bg-dark no-print">
-            <div class="container">
-                <p class="m-0 text-center text-white">
-                    Copyright &copy; 2025 Wiktor Kaczor. All Rights Reserved.
+      <section id="profile" class="profile-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <img
+                src="/articles/content/images/profile.jpg"
+                alt="Wiktor Kaczor"
+                class="profile-image"
+              />
+              <h1 class="mb-4">Hello, I'm Wiktor</h1>
+              <div class="profile-bio">
+                <p class="lead">
+                  A passionate Software Developer with expertise in C#, Python,
+                  and cloud technologies. I specialize in building secure,
+                  scalable applications and have a strong background in
+                  cybersecurity.
                 </p>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </section>
+
+      <section id="top-info" class="bg-light">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-xl-3 text-center">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+447936271953"> +447936271953 </a>
+              <br />
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:wiktoraleksanderkaczor@gmail.com">
+                wiktoraleksanderkaczor@gmail.com
+              </a>
+            </div>
+            <div class="col-xl-3 text-center">
+              <i class="fa-solid fa-location-dot"></i>
+              Glasgow, Scotland, United Kingdom
+              <br />
+              <i class="fa-solid fa-blog"></i>
+              <a href="/blog"> Follow my blog here! </a>
+            </div>
+            <div class="col-xl-3 text-center">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/wiktorkaczor"> LinkedIn </a>
+              <br />
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/wiktoraleksanderkaczor"> GitHub </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Experience</h2>
+              <p class="lead">Software Developer</p>
+              <ul>
+                <li>ClearSky Logic, United Kingdom</li>
+                <li>September 2023 to Present</li>
+              </ul>
+              <h6>Responsibilities:</h6>
+              <ul>
+                <li>
+                  Developed <b>ASP.NET Core Web API</b> applications for
+                  automated background checking, risk analysis, and financial
+                  decisioning platforms.
+                </li>
+                <li>
+                  <b>Designed and implemented secure APIs</b> for integrating
+                  with external services.
+                </li>
+                <li>
+                  <b>Participated in Agile scrum meetings</b> to refine project
+                  requirements and workflows.
+                </li>
+                <li>
+                  Utilized Azure services, including Azure Functions,
+                  <b>Azure SQL Database</b>, and Azure Blob Storage.
+                </li>
+                <li>
+                  Optimized <b>Entity Framework</b> performance for database
+                  operations and data retrieval.
+                </li>
+                <li>
+                  Debug and troubleshoot application issues across development
+                  environments
+                </li>
+                <li>
+                  Conduct code reviews to ensure coding standards and integrate
+                  feedback for improvement
+                </li>
+                <li>
+                  Enhance application performance through parallel processing
+                  techniques
+                </li>
+                <li>
+                  Overhaul existing data models and migrate to optimized
+                  structures
+                </li>
+                <li>
+                  Write unit and integration tests to validate code across
+                  updates
+                </li>
+                <li>
+                  Improve developer workflow with the implementation of
+                  efficient tools and processes
+                </li>
+                <li>
+                  Address front-end issues and user interface bugs as required
+                </li>
+                <li>
+                  <b>Continuously integrate and deploy updates</b> via CI/CD
+                  pipelines
+                </li>
+              </ul>
+              <br /><br />
+              <p class="lead">Software Developer</p>
+              <ul>
+                <li>Adarma, United Kingdom</li>
+                <li>May 2022 to May 2023</li>
+              </ul>
+              <h6>Responsibilites:</h6>
+              <ul>
+                <li>
+                  Developed serverless <b>Python</b>-based functions for a
+                  cybersecurity automation platform.
+                </li>
+                <li>
+                  Participated in <b>Agile meetings</b> for business
+                  requirements with cross-functional teams.
+                </li>
+                <li>
+                  <b>Enhanced platform serviceability</b>, focusing on
+                  credential health validation and automated support.
+                </li>
+                <li>Document service failure scenarios for SLA assessment</li>
+                <li>
+                  Utilized <b>AWS</b> services, including Lambda compute,
+                  storage, caching, databases, and monitoring.
+                </li>
+                <li>
+                  Implemented <b>Docker</b> containerization for serverless
+                  service deployment and testing.
+                </li>
+                <li>
+                  Updated <b>Terraform</b> deployments to reduce development
+                  environment costs.
+                </li>
+                <li>
+                  <b>Migrated in-house tests</b> to PyTest, incorporating
+                  profiling and debugging capabilities.
+                </li>
+                <li>
+                  <b>Troubleshot and debugged</b> issues using log-based
+                  monitoring platforms.
+                </li>
+                <li>
+                  <b>Implemented security enhancements</b> using historical
+                  event data to minimize redundancy.
+                </li>
+                <li>
+                  <b>Boosted security</b> with cross-site script filtering and
+                  user input validation.
+                </li>
+                <li>
+                  CI/CD code quality assurance and schema update pipelines
+                </li>
+                <li>Handle minor front-end enhancements and bug fixes</li>
+              </ul>
+              <br /><br />
+              <p class="lead">SOC Analyst</p>
+              <ul>
+                <li>Adarma, United Kingdom</li>
+                <li>August 2021 to May 2022</li>
+              </ul>
+              <h6>Responsibilites:</h6>
+              <ul>
+                <li>Monitoring clients' IT infrastructures for threats</li>
+                <li>Triage, investigate and escalate security incidents</li>
+                <li>Tracking ticket investigation progress in ticket (JIRA)</li>
+                <li>
+                  Run scheduled Splunk searches on client (SIEM) infrastructure
+                </li>
+                <li>Conducting monitoring for new security rule development</li>
+                <li>
+                  Hunting for the newest Indicators of Compromise (IoC) within
+                  client estates
+                </li>
+                <li>Assisting with response process workbook development</li>
+                <li>
+                  Verifying security event detection with tools and databases to
+                  confirm reputation
+                </li>
+                <li>
+                  Updating thresholds, whitelists and threat lists for new and
+                  existing security rules
+                </li>
+              </ul>
+              <br /><br />
+              <p class="lead">Student</p>
+              <ul>
+                <li>Edinburgh Napier University, United Kingdom</li>
+                <li>August 2019 to June 2021</li>
+              </ul>
+              <h6>Responsibilites:</h6>
+              <ul>
+                <li>
+                  Developing a dissertation project using existing
+                  photogrammetry solutions for image tracking purposes
+                </li>
+                <li>
+                  Analysing existing source code for vulnerabilities using
+                  secure software development practices
+                </li>
+                <li>
+                  Collaborating with a team on web technologies group project
+                  for employee rota management system
+                </li>
+                <li>
+                  Python scripting for network packet analysis, filtering and
+                  geographical location lookup
+                </li>
+                <li>
+                  Analysing file and operating system artifacts for forensic
+                  evidence
+                </li>
+                <li>
+                  Executing and protecting against attacks in an IoT network
+                  simulator
+                </li>
+                <li>Basic network server penetration testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Personal Projects</h2>
+              <p class="lead">Personal website</p>
+              <p>
+                Highly responsive, completely static and concise website listing
+                my skills, experience and projects:
+              </p>
+              <ul>
+                <li>
+                  Written in <b>Bootstrap 5</b>, <b>HTML5</b>, <b>CSS3</b> and
+                  minor <b>JavaScript</b>
+                </li>
+                <li>Responsive down to 320px width with mobile-first design</li>
+                <li>
+                  Easy-to-find find and use contact information; an email
+                  address, code repository and social media profiles
+                </li>
+                <li>Search engine optimization (SEO) with meta tags</li>
+                <li>Webpage and visitor tracking with Google Analytics</li>
+              </ul>
+              <br /><br />
+              <p class="lead">Dissertation Project</p>
+              <p>
+                GitHub repository for my honours dissertation project dealing
+                with retrieving accurate camera positions in the GPS datum,
+                assuming they are of a popular landmark, given a dataset with a
+                small subset of accurate GPS image tags.
+              </p>
+              <ul>
+                <li>
+                  Semi-automated <b>dataset gathering</b> from <b>Flickr</b> to
+                  collect relevant image datasets.
+                </li>
+                <li>
+                  Implemented <b>image filtering</b> to deduplicate and remove
+                  blurry or low-resolution images, ensuring dataset quality.
+                </li>
+                <li>
+                  Extracted EXIF data from images and converted GPS data into a
+                  compatible format for easier pipeline ingest.
+                </li>
+                <li>
+                  Utilized <b>OpenMVG</b> for <b>3D reconstruction</b> to
+                  accurately model landmarks.
+                </li>
+                <li>
+                  Enabled <b>merging of models for localisation</b> by
+                  reverse-engineering the model data format to enhance
+                  localisation capabilities.
+                </li>
+                <li>
+                  Performing validation and testing on reconstructed models to
+                  ensure accuracy and reliability.
+                </li>
+              </ul>
+              <a href="Dissertation.pdf">Read my dissertation here</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Education</h2>
+              <p class="lead">
+                Undergraduate Study at Edinburgh Napier University (2019 to
+                2021):
+              </p>
+              <ul>
+                <li>
+                  BEng (Hons) Cybersecurity and Forensics (3rd Year Entry) with
+                  First Class Honours [2019 to 2021]
+                </li>
+              </ul>
+              <p class="lead">
+                Higher Education at Edinburgh College (2016 to 2019):
+              </p>
+              <ul>
+                <li>
+                  Higher National Diploma Computing: Networking - Grade A (SQCF
+                  Level 8) [2017 to 2019]
+                </li>
+                <li>
+                  National Certificate Computing: Technical Support (SQCF Level
+                  6) [2016 to 2017]
+                </li>
+              </ul>
+              <p class="lead">Additional Certifications:</p>
+              <ul>
+                <li>Splunk Core Certified Power User [Certified 2022]</li>
+                <a
+                  href="https://www.credly.com/badges/9316b645-80f6-4db7-bb0c-4fbf985d1a2d"
+                  >Verify</a
+                >
+                <li>Splunk Core Certified User [Certified 2021]</li>
+                <a
+                  href="https://www.credly.com/badges/01d7b394-831b-42cf-8d89-f0c8eaed8abb"
+                  >Verify</a
+                >
+                <li>
+                  MTA (Microsoft Technology Associate): Windows Operating System
+                  Fundamentals [Certified 2017]
+                </li>
+                <a
+                  href="https://www.youracclaim.com/badges/754731c9-fdf1-461a-b0e5-b658b1839778"
+                  >Verify</a
+                >
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Skills</h2>
+              <!-- Rated in terms of confidence at being able to do what is needed -->
+              <h5>Languages:</h5>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">CSharp (C#)</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Python</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">HTML/CSS/JS</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 30%"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">SQL</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 30%"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <h5>Tooling:</h5>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Docker</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Entity Framework Core</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">gRPC</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">GitLab CI/CD</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Terraform</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 60%"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Git</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 60%"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Linux/Unix</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 50%"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <h5>Services:</h5>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">JIRA</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Azure DevOps</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 60%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">AWS</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 55%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">GitLab</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 60%"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Splunk</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 60%"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <h5>Other:</h5>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">ASP.NET Core Web API</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">xUnit</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 50%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Clean Architecture</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 50%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">PyTest</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 40%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <h5>General:</h5>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Secure Programming</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Cybersecurity</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Agile</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 70%"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Scripting</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Computer Networking</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 60%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">System Design</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 50%"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h6 class="text-center mb-2">Database</h6>
+                    <div class="progress">
+                      <progress
+                        class="progress-bar"
+                        style="width: 50%"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></progress>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="references">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>References</h2>
+              <ul>
+                <li>Current employer references available upon request.</li>
+                <li>
+                  <strong>Adarma Security People Team:</strong>
+                  <a href="mailto:PeopleTeam@adarma.com"
+                    >PeopleTeam@adarma.com</a
+                  >
+                </li>
+                <li>
+                  <strong>Dr. Sean McKeown</strong> (Edinburgh Napier
+                  University) -
+                  <a href="mailto:S.McKeown@napier.ac.uk"
+                    >S.McKeown@napier.ac.uk</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="bg-light no-print">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-8 mx-auto">
+              <h2>Download for later</h2>
+              <a href="WiktorKaczor.pdf"
+                >Click here to download a copy of my CV for later.</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-5 bg-dark no-print">
+        <div class="container">
+          <p class="m-0 text-center text-white">
+            Copyright &copy; 2025 Wiktor Kaczor. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
     </div>
     <div class="low-resolution-warning">
-        <h1>Warning!</h1>
-        <p>Your screen resolution is below our minimum requirement. Please increase your screen resolution.</p>
+      <h1>Warning!</h1>
+      <p>
+        Your screen resolution is below our minimum requirement. Please increase
+        your screen resolution.
+      </p>
     </div>
     <!-- Minimum resolution warning -->
     <script>
-        var minimumWidth = 320;
-        var minimumHeight = 240;
+      var minimumWidth = 320;
+      var minimumHeight = 240;
 
-        function checkResolution() {
-            if (window.innerWidth >= minimumWidth && window.innerHeight >= minimumHeight) {
-                document.querySelector('.content').style.display = 'block';
-                document.querySelector('.low-resolution-warning').style.display = 'none';
-            } else {
-                document.querySelector('.content').style.display = 'none';
-                document.querySelector('.low-resolution-warning').style.display = 'block';
-            }
+      function checkResolution() {
+        if (
+          window.innerWidth >= minimumWidth &&
+          window.innerHeight >= minimumHeight
+        ) {
+          document.querySelector(".content").style.display = "block";
+          document.querySelector(".low-resolution-warning").style.display =
+            "none";
+        } else {
+          document.querySelector(".content").style.display = "none";
+          document.querySelector(".low-resolution-warning").style.display =
+            "block";
         }
+      }
 
-        window.onload = checkResolution;
-        window.onresize = checkResolution;
+      window.onload = checkResolution;
+      window.onresize = checkResolution;
     </script>
 
     <!-- Bootstrap core JavaScript -->
     <!-- Update bootstrap to latest version -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
-</body>
-
-
+    <!-- Possible include script; https://unpkg.com/@popperjs/core@2 -->
+  </body>
 </html>

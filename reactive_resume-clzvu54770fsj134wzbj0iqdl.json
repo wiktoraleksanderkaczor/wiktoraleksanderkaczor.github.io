@@ -18,7 +18,7 @@
       "aspectRatio": 1,
       "borderRadius": 30
     },
-    "headline": "",
+    "headline": "Software Developer specializing in C#, Python, and cloud technologies",
     "location": "Glasgow, Scotland",
     "customFields": []
   },
@@ -92,17 +92,17 @@
       "name": "Skills",
       "items": [
         {
-          "id": "b50x5n9ale2k40h3ixvrrp3d",
-          "visible": true,
-          "name": "C#",
-          "description": "",
+          "id": "gqabcoewot8q4xc6y3bainsb",
+          "name": "ASP.NET Core Web API",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         },
         {
-          "id": "gqabcoewot8q4xc6y3bainsb",
+          "id": "b50x5n9ale2k40h3ixvrrp3d",
           "visible": true,
-          "name": "ASP.NET",
+          "name": "CSharp (C#)",
           "description": "",
           "level": 0,
           "keywords": []
@@ -117,15 +117,31 @@
         },
         {
           "id": "axi72u0ylt6nvg1jqhs911zf",
-          "visible": true,
-          "name": "Azure",
-          "description": "",
+          "name": "Docker",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         },
         {
           "id": "tf961dhxmq3k5r8ll37uouk4",
-          "name": "AWS",
+          "name": "Entity Framework Core",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "bbmfjgk0466nk156kt99y5zs",
+          "name": "Secure Programming",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "cpu0qlcbhzq2t56q9m7nwgy8",
+          "name": "Cybersecurity",
           "level": 0,
           "visible": true,
           "keywords": [],
@@ -133,6 +149,14 @@
         },
         {
           "id": "a8pe3ftl8gk90fl5eo2v947e",
+          "name": "gRPC",
+          "level": 0,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        },
+        {
+          "id": "fcn7g50559zn3x3y8h04cbfo",
           "name": "Azure DevOps",
           "level": 0,
           "visible": true,
@@ -141,75 +165,27 @@
         },
         {
           "id": "g9789ueeft0qwu6m2ekseg9y",
-          "name": "Git + GitLab",
-          "level": 0,
           "visible": true,
-          "keywords": [],
-          "description": ""
+          "name": "Computer Networking",
+          "description": "",
+          "level": 0,
+          "keywords": []
         },
         {
           "id": "rzm68bkybq7wuz1hq3msjg60",
           "visible": true,
-          "name": "xUnit",
+          "name": "Scripting",
           "description": "",
           "level": 0,
           "keywords": []
         },
         {
           "id": "olj1zdso24786xw9s39ugxiq",
-          "name": "PyTest",
-          "level": 0,
           "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "fcn7g50559zn3x3y8h04cbfo",
-          "name": "Docker",
-          "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "bbmfjgk0466nk156kt99y5zs",
-          "name": "Linux/Unix",
-          "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "cpu0qlcbhzq2t56q9m7nwgy8",
-          "name": "Terraform",
-          "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "edlibmdox8phmvw9akmysse5",
-          "name": "GitLab CI/CD",
-          "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "i6uufed13yd7ki1pvhg7cl1o",
           "name": "Agile",
+          "description": "",
           "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "dynuvh0mjg864ma6f7daxqlw",
-          "name": "HTML/CSS/JS",
-          "level": 0,
-          "visible": true,
-          "keywords": [],
-          "description": ""
+          "keywords": []
         }
       ],
       "columns": 4,
@@ -220,7 +196,7 @@
       "id": "summary",
       "name": "Summary",
       "columns": 1,
-      "content": "<p></p>",
+      "content": "<p>A passionate Software Developer with expertise in C#, Python, and cloud technologies. I specialize in building secure, scalable applications and have a strong background in cybersecurity.</p>",
       "visible": true,
       "separateLinks": true
     },
@@ -386,16 +362,16 @@
       "items": [
         {
           "id": "vpnqatxr20pt7kg8auyuer82",
-          "visible": true,
-          "company": "ClearSky Logic",
-          "position": "Software Developer",
-          "location": "Edinburgh/Glasgow",
-          "date": "September 2023 - Present",
-          "summary": "<p>Develop C# ASP.NET Core MVC applications, engage in Agile scrums, utilize Azure services, optimize database performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis, financial decisioning and metric report generation.</p>",
           "url": {
-            "label": "",
-            "href": "https://www.clearskylogic.com/"
-          }
+            "href": "https://www.clearskylogic.com/",
+            "label": ""
+          },
+          "date": "September 2023 - Present",
+          "company": "ClearSky Logic",
+          "summary": "<p>Develop C# ASP.NET Core Web API applications, engage in Agile scrums, utilize Azure services, optimize database performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis, financial decisioning and metric report generation.</p>",
+          "visible": true,
+          "location": "Edinburgh/Glasgow",
+          "position": "Software Developer"
         },
         {
           "id": "rulyvc35ghbmi85qhs9m52na",

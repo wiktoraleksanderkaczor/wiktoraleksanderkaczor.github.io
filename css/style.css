@@ -2,57 +2,249 @@
  * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
-*/
+ */
+
+:root {
+  --dark-bg: #1a1a1a;
+  --dark-bg-light: #2d2d2d;
+  --dark-navbar: #0c1e35;
+  --dark-text-color: #66b3ff;
+  --dark-text-color-hover: #99ccff;
+  --dark-progress-bg: #4d4d4d;
+  --dark-profile-border: #4d4d4d;
+  --dark-low-resolution-warning: #990000;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arvo', Georgia, Times, serif;
+}
 
 section {
   padding: 35px 0;
 }
 
+/* Typography */
 h1 {
- font-family: 'Arvo', Georgia, Times, serif;
- font-size: 40px;
- line-height: 35px;
-}
-
-h2,h4 {
- font-family: 'Arvo', Georgia, Times, serif;
+  font-size: 40px;
+  line-height: 35px;
 }
 
 p {
- font-family: 'Arvo', Georgia, Times, serif;
- font-size: 59px;
- line-height: 25px;
+  font-size: 59px;
+  line-height: 25px;
 }
 
 p:not([class^="lead"]) {
- font-family: 'Arvo', Georgia, Times, serif;
- font-size: 15px;
- line-height: 16px;
+  font-size: 15px;
+  line-height: 16px;
 }
- 
+
+ul, .nav-item {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
 ul {
- font-family: 'PT Sans', Helvetica, Arial, sans-serif;
- font-size: 16px;
- line-height: 30px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .nav-item {
- font-family: 'PT Sans', Helvetica, Arial, sans-serif;
- font-size: 17px;
+  font-size: 17px;
 }
 
 .navbar-brand {
- font-family: 'Arvo', Georgia, Times, serif;
- font-size: 25px;
+  font-size: 25px;
 }
 
+/* Skill Styles */
 .skill-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 175px;
+  display: inline-block;
+  vertical-align: top;
 }
 
+.skill-item h6 {
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.progress {
+  height: 8px;
+  margin-top: auto;
+}
+
+.container-fluid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+/* Profile section styles */
+.profile-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #eee;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.profile-bio {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-bg);
+    color: #ffffff;
+  }
+
+  .bg-light {
+    background-color: var(--dark-bg-light) !important;
+    color: #ffffff;
+  }
+
+  .navbar-dark {
+    background-color: var(--dark-navbar) !important;
+  }
+
+  a {
+    color: var(--dark-text-color);
+  }
+
+  a:hover {
+    color: var(--dark-text-color-hover);
+  }
+
+  .progress {
+    background-color: var(--dark-progress-bg);
+  }
+
+  .profile-image {
+    border-color: var(--dark-profile-border) !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+
+  .skill-item h6 {
+    color: #ffffff;
+  }
+
+  .bg-dark {
+    background-color: var(--dark-navbar) !important;
+  }
+
+  progress {
+    background-color: var(--dark-text-color);
+  }
+
+  progress::-webkit-progress-bar {
+    background-color: var(--dark-text-color);
+  }
+}
+
+/* Enhanced print styles */
 @media print {
-  .no-print {
-    display: none;
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .progress {
+    border: 1px solid #ddd;
+  }
+
+  progress {
+    background-color: #66b3ff !important;
+    color: #000 !important;
+  }
+
+  section {
+    padding: 15px 0;
+    page-break-inside: avoid;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .skill-item {
+    width: auto;
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+
+/* Loading placeholder */
+.loading-placeholder {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Low resolution warning */
+.low-resolution-warning {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff4444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  z-index: 9999;
+}
+
+@media (prefers-color-scheme: dark) {
+  .low-resolution-warning {
+    background-color: var(--dark-low-resolution-warning);
   }
 }
