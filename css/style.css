@@ -57,7 +57,7 @@ ul {
 /* Skill Styles */
 .skill-item {
   margin-bottom: 20px;
-  width: 175px;
+  width: 30%; /* 3 items per row plus 3% margin */
   display: inline-block;
   vertical-align: top;
 }
