@@ -22,6 +22,7 @@ body {
 
 section {
   padding: 35px 0;
+  scroll-margin-top: 70px;
 }
 
 /* Typography */
@@ -51,10 +52,6 @@ ul {
 
 .nav-item {
   font-size: 17px;
-}
-
-.navbar-brand {
-  font-size: 25px;
 }
 
 /* Skill Styles */
@@ -120,53 +117,55 @@ ul {
 }
 
 /* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--dark-bg);
-    color: #ffffff;
-  }
+html[data-bs-theme='dark'] body {
+  background-color: var(--dark-bg);
+  color: #ffffff;
+}
 
-  .bg-light {
-    background-color: var(--dark-bg-light) !important;
-    color: #ffffff;
-  }
+html[data-bs-theme='dark'] .bg-light {
+  background-color: var(--dark-bg-light) !important;
+  color: #ffffff;
+}
 
-  .navbar-dark {
-    background-color: var(--dark-navbar) !important;
-  }
+html[data-bs-theme='dark'] .navbar-dark {
+  background-color: var(--dark-navbar) !important;
+}
 
-  a {
-    color: var(--dark-text-color);
-  }
+html[data-bs-theme='dark'] a {
+  color: var(--dark-text-color);
+}
 
-  a:hover {
-    color: var(--dark-text-color-hover);
-  }
+html[data-bs-theme='dark'] a:hover {
+  color: var(--dark-text-color-hover);
+}
 
-  .progress {
-    background-color: var(--dark-progress-bg);
-  }
+html[data-bs-theme='dark'] .progress {
+  background-color: var(--dark-progress-bg);
+}
 
-  .profile-image {
-    border-color: var(--dark-profile-border) !important;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-  }
+html[data-bs-theme='dark'] .profile-image {
+  border-color: var(--dark-profile-border) !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
 
-  .skill-item h6 {
-    color: #ffffff;
-  }
+html[data-bs-theme='dark'] .skill-item h6 {
+  color: #ffffff;
+}
 
-  .bg-dark {
-    background-color: var(--dark-navbar) !important;
-  }
+html[data-bs-theme='dark'] .bg-dark {
+  background-color: var(--dark-navbar) !important;
+}
 
-  progress {
-    background-color: var(--dark-text-color);
-  }
+html[data-bs-theme='dark'] progress {
+  background-color: var(--dark-text-color);
+}
 
-  progress::-webkit-progress-bar {
-    background-color: var(--dark-text-color);
-  }
+html[data-bs-theme='dark'] progress::-webkit-progress-bar {
+  background-color: var(--dark-text-color);
+}
+
+html[data-bs-theme='dark'] .low-resolution-warning {
+  background-color: var(--dark-low-resolution-warning);
 }
 
 /* Enhanced print styles */
@@ -243,8 +242,12 @@ ul {
   z-index: 9999;
 }
 
-@media (prefers-color-scheme: dark) {
-  .low-resolution-warning {
-    background-color: var(--dark-low-resolution-warning);
-  }
+html[data-bs-theme='light'] #theme-toggle {
+  background-color: #007bff;
+  color: #fff;
+}
+
+html[data-bs-theme='dark'] #theme-toggle {
+  background-color: #343a40;
+  color: #fff;
 }
