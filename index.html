@@ -283,6 +283,7 @@
               <ul>
                 <li>ClearSky Logic, United Kingdom</li>
                 <li>September 2023 to Present</li>
+                <li data-start="2023-09" data-end="present" class="job-duration"></li>
               </ul>
               <h6>Responsibilities:</h6>
               <ul>
@@ -344,6 +345,7 @@
               <ul>
                 <li>Adarma, United Kingdom</li>
                 <li>May 2022 to May 2023</li>
+                <li data-start="2022-05" data-end="2023-05" class="job-duration"></li>
               </ul>
               <h6>Responsibilites:</h6>
               <ul>
@@ -398,6 +400,7 @@
               <ul>
                 <li>Adarma, United Kingdom</li>
                 <li>August 2021 to May 2022</li>
+                <li data-start="2021-08" data-end="2022-05" class="job-duration"></li>
               </ul>
               <h6>Responsibilites:</h6>
               <ul>
@@ -427,6 +430,7 @@
               <ul>
                 <li>Edinburgh Napier University, United Kingdom</li>
                 <li>August 2019 to June 2021</li>
+                <li data-start="2019-08" data-end="2021-06" class="job-duration"></li>
               </ul>
               <h6>Responsibilites:</h6>
               <ul>
@@ -466,6 +470,22 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2>Personal Projects</h2>
+              <p class="lead">RepoTool (Work in Progress)</p>
+              <p>Command-line utility designed to parse, analyze and interact with code repositories</p>
+              <ul>
+                <li>Written in <b>C#</b> with <b>EF Core (incl. Migrations)</b> using <b>SQLite</b></li>
+                <li>Inference (per task) via provider-based or <b>self-hosted</b> large language models (LLMs)</li>  
+                <li>Language-agnostic parsing with own structured output (<b>JSON Schema</b>) data structure</li>
+                <li>Languages can be configured with glob-based matchers</li>
+                <li>Understands and leverages <b>Git</b>-based version control for indexing</li>
+                <li>Argument parsing and <b>command-line</b> interface with LLM visualisation</li>
+                <li>Extensible and user-controllable via <b>templates</b></li>
+                <li>Suitable for even subpar structured output support</li>
+              </ul>
+              <a href="https://github.com/wiktoraleksanderkaczor/repotool" target="_blank">
+              View on GitHub
+              </a>
+              <br /><br /><br />
               <p class="lead">Personal website</p>
               <p>
                 Highly responsive, completely static and concise website listing
@@ -484,7 +504,10 @@
                 <li>Search engine optimization (SEO) with meta tags</li>
                 <li>Webpage and visitor tracking with Google Analytics</li>
               </ul>
-              <br /><br />
+              <a href="https://github.com/wiktoraleksanderkaczor/wiktoraleksanderkaczor.github.io" target="_blank">
+              View on GitHub
+              </a>
+              <br /><br /><br />
               <p class="lead">Dissertation Project</p>
               <p>
                 GitHub repository for my honours dissertation project dealing
@@ -519,7 +542,11 @@
                   ensure accuracy and reliability.
                 </li>
               </ul>
-              <a href="Dissertation.pdf">Read my dissertation here</a>
+              <a href="Dissertation.pdf">Read my dissertation</a>
+              <br />
+              <a href="https://github.com/wiktoraleksanderkaczor/university-project" target="_blank">
+              View on GitHub
+              </a>
             </div>
           </div>
         </div>
@@ -527,7 +554,7 @@
 
       <section id="education">
         <div class="container">
-          <div class="row">
+</a>          <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2>Education</h2>
               <p class="lead">
@@ -949,19 +976,21 @@
             <div class="col-lg-8 mx-auto">
               <h2>References</h2>
               <ul>
-                <li>Current employer references available upon request.</li>
+                <li>
+                  <strong>ClearSky Logic (Head of People):</strong>
+                  <a href="mailto:ula.gorazd@clearskylogic.com"
+                    >ula.gorazd@clearskylogic.com</a>
+                </li>
                 <li>
                   <strong>Adarma Security People Team:</strong>
                   <a href="mailto:PeopleTeam@adarma.com"
-                    >PeopleTeam@adarma.com</a
-                  >
+                    >PeopleTeam@adarma.com</a>
                 </li>
                 <li>
                   <strong>Dr. Sean McKeown</strong> (Edinburgh Napier
                   University) -
                   <a href="mailto:S.McKeown@napier.ac.uk"
-                    >S.McKeown@napier.ac.uk</a
-                  >
+                    >S.McKeown@napier.ac.uk</a>
                 </li>
               </ul>
             </div>
@@ -1018,7 +1047,34 @@
         }
       }
 
-      window.onload = checkResolution;
+      function calculateJobDuration() {
+      const jobElements = document.querySelectorAll('.job-duration');
+
+      jobElements.forEach((job) => {
+        const start = job.getAttribute('data-start');
+        const end = job.getAttribute('data-end');
+        const startDate = new Date(start + '-01');
+        const endDate = end === 'present' ? new Date() : new Date(end + '-01');
+
+        const totalMonths =
+          (endDate.getFullYear() - startDate.getFullYear()) * 12 +
+          (endDate.getMonth() - startDate.getMonth());
+
+        const years = Math.floor(totalMonths / 12);
+        const months = totalMonths % 12;
+
+        let durationText = '';
+        if (years > 0) durationText += `${years} year${years > 1 ? 's' : ''}`;
+        if (months > 0) durationText += `${years > 0 ? ' and ' : ''}${months} month${months > 1 ? 's' : ''}`;
+
+        job.textContent = durationText || 'Less than a month';
+      });
+    }
+
+      window.onload = function () {
+        checkResolution();
+        calculateJobDuration();
+      };
       window.onresize = checkResolution;
     </script>
 
