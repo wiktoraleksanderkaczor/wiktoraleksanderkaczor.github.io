@@ -101,11 +101,11 @@
         },
         {
           "id": "b50x5n9ale2k40h3ixvrrp3d",
-          "visible": true,
           "name": "CSharp (C#)",
-          "description": "",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         },
         {
           "id": "wun0btdet37hzz4f7v43xcwf",
@@ -165,27 +165,27 @@
         },
         {
           "id": "g9789ueeft0qwu6m2ekseg9y",
-          "visible": true,
           "name": "Computer Networking",
-          "description": "",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         },
         {
           "id": "rzm68bkybq7wuz1hq3msjg60",
-          "visible": true,
           "name": "Scripting",
-          "description": "",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         },
         {
           "id": "olj1zdso24786xw9s39ugxiq",
-          "visible": true,
           "name": "Agile",
-          "description": "",
           "level": 0,
-          "keywords": []
+          "visible": true,
+          "keywords": [],
+          "description": ""
         }
       ],
       "columns": 4,
@@ -235,6 +235,19 @@
       "id": "projects",
       "name": "Projects",
       "items": [
+        {
+          "id": "vr2he2u6s5pk9u7f5nn9jpyu",
+          "visible": true,
+          "name": "Homelab",
+          "description": "",
+          "date": "",
+          "summary": "<p>Designed and maintain a secure, containerized homelab environment utilizing Docker Compose to host diverse self-hosted services. Key applications include Gitea for Git hosting and CI/CD, SonarQube for code analysis, Ollama/Open WebUI for local large language model experimentation, Actual Budget for personal finance, Joplin for notes, Vaultwarden for password management, Duplicati for backups, and Nightscout for health data monitoring. The entire infrastructure is protected by a UFW firewall and leverages Cloudflare Tunnels plus VPN for secure external access and traffic management, ensuring robust security and privacy.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
         {
           "id": "q0qysz630lhrwj2n7w61c1o2",
           "url": {
@@ -362,16 +375,16 @@
       "items": [
         {
           "id": "vpnqatxr20pt7kg8auyuer82",
-          "url": {
-            "href": "https://www.clearskylogic.com/",
-            "label": ""
-          },
-          "date": "September 2023 - Present",
-          "company": "ClearSky Logic",
-          "summary": "<p>Develop C# ASP.NET Core Web API applications, engage in Agile scrums, utilize Azure services, optimize database performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis, financial decisioning and metric report generation.</p>",
           "visible": true,
+          "company": "ClearSky Logic",
+          "position": "Software Developer",
           "location": "Edinburgh/Glasgow",
-          "position": "Software Developer"
+          "date": "September 2023 - May 2025",
+          "summary": "<p>Develop C# ASP.NET Core Web API applications, engage in Agile scrums, utilize Azure services, optimize database performance, debugging, participate in code reviews, improve performance with parallelisation, overhaul and migrate data models, write various automated tests and improve developer workflow. Worked mainly around automated background checking, risk analysis, financial decisioning and metric report generation.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.clearskylogic.com/"
+          }
         },
         {
           "id": "rulyvc35ghbmi85qhs9m52na",
@@ -410,14 +423,14 @@
       "items": [
         {
           "id": "krbx79qhk0msi7wftyrlqc4t",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "name": "ClearSky Logic",
-          "summary": "<p>Available on request.</p>",
           "visible": true,
-          "description": "Employer"
+          "name": "ClearSky Logic",
+          "description": "Employer",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:ula.gorazd@clearskylogic.com\">ula.gorazd@clearskylogic.com</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
         {
           "id": "vlftt106t5iidb5glumindj9",
